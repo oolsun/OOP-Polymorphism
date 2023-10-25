@@ -8,17 +8,17 @@ namespace OOP_Polymorphism
 {
     public class Parallellogram : Geometri
     {
-        double _base { get; set; }
-        double _height { get; set; }
+        double Base { get; set; }
+        double Height { get; set; }
 
         public Parallellogram()
         {
-            _base = 4;
-            _height = 6;
+            Base = 4;
+            Height = 6;
         }
         public override double Area()
         {
-            return _base * _height;
+            return Base * Height;
         }
     }
 }

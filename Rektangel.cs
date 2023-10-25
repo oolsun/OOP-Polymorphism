@@ -8,17 +8,17 @@ namespace OOP_Polymorphism
 {
     public class Rektangel : Geometri
     {
-        double _height {get; set;}
-        double _base { get; set; }
+        double Height { get; set; }
+        double Base { get; set; }
 
         public Rektangel()
         {
-            _height = 5;
-            _base = 4;
+            Height = 5;
+            Base = 4;
         }
         public override double Area()
         {
-            return _height * _base;
+            return Height * Base;
         }
     }
 }

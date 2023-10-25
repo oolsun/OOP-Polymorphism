@@ -8,15 +8,15 @@ namespace OOP_Polymorphism
 {
     public class Cirkel : Geometri
     {
-        public double _radius { get; set; }
+        double Radius { get; set; }
 
         public Cirkel()
         {
-            _radius = 4;
+            Radius = 4;
         }
         public override double Area()
         {
-            return _radius * _radius * Math.PI;
+            return Radius * Radius* Math.PI;
         }
     }
 }

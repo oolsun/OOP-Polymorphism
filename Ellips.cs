@@ -8,17 +8,17 @@ namespace OOP_Polymorphism
 {
     public class Ellips : Geometri
     {
-        public double _dotA { get; set; }
-        public double _dotB { get; set; }
+        double DotA { get; set; }
+        double DotB { get; set; }
 
         public Ellips()
         {
-            _dotA = 3;
-            _dotB = 5;
+            DotA = 3;
+            DotB = 5;
         }
         public override double Area()
         {
-            return _dotA * _dotB * Math.PI;
+            return DotA * DotB * Math.PI;
         }
     }
 }
