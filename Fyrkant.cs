@@ -6,19 +6,20 @@ using System.Threading.Tasks;
 
 namespace OOP_Polymorphism
 {
+    // Child class "Fyrkant" (I interpret it as a square (all sides the same))
     public class Fyrkant : Geometri
     {
-        double Base { get; set; }
-        double Height { get; set; }
-
+        // Properties used to calculate square area.
+        double Side { get; set; }
+        // Constructor used to set fixed values.
         public Fyrkant()
         {
-            Base = 6;
-            Height = 6;
+            Side = 6;
         }
+        // Overridden mathod that calculates and return area of square.
         public override double Area()
         {
-            return Base * Height;
+            return Side * Side;
         }
     }
 }
