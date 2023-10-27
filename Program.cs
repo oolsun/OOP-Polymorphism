@@ -4,6 +4,7 @@ namespace OOP_Polymorphism
 {
     internal class Program
     {
+        // Olov Olsson Sundqvist .NET23
         static void Main(string[] args)
         {
             // Create an object reference from Geometri Class
